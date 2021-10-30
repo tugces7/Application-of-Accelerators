@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # Applications of Accelerators Lecture
-# Python Exercises
+# Python Exercise 1
 # Tugce Sirkecioglu 3301159
 # October 2021
 
