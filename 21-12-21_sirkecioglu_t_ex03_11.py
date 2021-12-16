@@ -1,12 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-#!/usr/bin/env python
-# coding: utf-8
-
-#!/usr/bin/env python
-# coding: utf-8
-
 # Applications of Accelerators Lecture
 # Python Exercise 3
 # Tugce Sirkecioglu 3301159
