@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
 #!/usr/bin/env python
 # coding: utf-8
 
@@ -16,10 +13,6 @@
 # December 2021
 
 # Write a python function with the name of "get_rigidity" to calculate the magnetic rigidity and put your code as usual on your GitHUB and provide the link here.
-
-
-# In[6]:
-
 
 # Data is taken from the Question 5.
 
@@ -36,10 +29,3 @@ class Rigidity:
 p7TeV = Rigidity(7000000, 1.007276,0.999999991, 1)
 
 p7TeV.get_rigidity()
-
-
-# In[ ]:
-
-
-
-
