@@ -10,16 +10,17 @@
 
 # Data is taken from the Question 5.
 
+import numpy as np
+
 class Rigidity:
-    def __init__(self,  kineticenergy, restmass, lorentzfactor, chargestate):
+    def __init__(self,  kineticenergy, restmass, chargestate):
         self.ekin = kineticenergy
         self.m0 = restmass
-        self.beta = lorentzfactor
         self.Q = chargestate
 
     def get_rigidity(self):
-        print ((((self.ekin/(self.m0*931.5))+1)*self.m0*1.661E-27*self.beta*2.997E8)/(self.Q*1.602E-19))
+        print ((((self.ekin/(self.m0*931.5))+1)*np.sqrt(1-(1/(((self.ekin/(self.m0*931.5))+1)**2)))*2.997E8*self.m0*1.661E-27)/(self.Q*1.602E-19))
         
-p7TeV = Rigidity(7000000, 1.007276,0.999999991, 1)
+p7TeV = Rigidity(7000000, 1.007276, 1)
 
 p7TeV.get_rigidity()
